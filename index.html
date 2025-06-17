@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Clicker</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <h1 style="text-align:center">Water clicker</h1>
+    <h1 id="litersobj">Liters: 0L</h1>
+    <h1 id="gainsobj">Gains: 0.1L</h1>
+    <h1 id="literspsobj">Passive income: 0L</h1>
+    <div id="water" onclick="clicked();">💧</div>
+    <div id="upgrades">
+    <h1>Upgrades:</h1><br>
+    <div id="upgradeslist">
+      <div onclick="buy('upgrade1')" id="upgrade1" class="upgrade">+0.1L gain (2L)</div>
+      <div onclick="buy('upgrade2')" id="upgrade2"class="upgrade">+1L gain (18L)</div>
+      <div onclick="buy('upgrade3')" id="upgrade3"class="upgrade">+0.5L/s (3L)</div>
+      <div onclick="buy('upgrade4')" id="upgrade4"class="upgrade">1.5x gains (5L) (stack)</div>
+      <div onclick="buy('upgrade5')" id="upgrade5"class="upgrade">autoclicker (12500L)</div>
+      <div onclick="buy('upgrade6')" id="upgrade6"class="upgrade">2x passive income (7L) (stack)</div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</html>
