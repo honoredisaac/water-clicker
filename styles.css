@@ -1,0 +1,39 @@
+body{
+  font-family: franklin gothic;
+  background-color: lightblue;
+}
+#water{
+  position: absolute;
+  left: calc(50vw - (200px)/2);
+  width: 200px;
+  height: 200px;
+  font-size: 200px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#water:active{
+  transform: scale(1.1);
+}
+#upgrades{
+  position: absolute;
+  top: calc(50vh + 150px);
+}
+#upgradeslist{
+  width: 25vw;
+  height: 1000px;
+  background-color: black;
+  outline: 5px solid black;
+}
+.upgrade{
+  font-size: 32px;
+  width: 25vw;
+  height: 107px;
+  background-color: white;
+  margin-bottom: 7px;
+  cursor: pointer;
+  transition: 2s;
+}
